@@ -1,0 +1,146 @@
+.select2-container .select2-selection--single {
+    height : 34px;
+}
+.select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single {
+    border-radius : 0;
+}
+.daterangepicker.opensleft:after {
+    display : none;
+}
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    margin-left : 0;
+}
+.file-input .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    margin-left : -1px;
+    padding-bottom: 6px;
+}
+.file-error-message {
+    color : #FE5B5B;
+}
+.noresize {
+    resize : none;
+}
+.btn.btn-info.dropdown-toggle.dropdown-toggle-split{
+    padding: 7px;
+}
+.radio-inline + .radio-inline, .checkbox-inline + .checkbox-inline {
+    margin-left : 0;
+}
+img.flag {
+    height        : 16px;
+    width         : 28px;
+    padding-right : 10px;
+}
+.file-preview-image {
+    max-width : 100% !important;
+}
+.m-b-10 {
+    margin-bottom : 10px !important;
+}
+.m-t-ng-8 {
+    margin-top : -8px;
+}
+#kvFileinputModal.file-zoom-fullscreen {
+    z-index : 10009;
+}
+.input-group-sm > .input-group-addon {
+    padding : 3px 10px;
+}
+.input-group-lg > .input-group-addon {
+    padding : 9px 16px;
+}
+.fnt_size{
+    font-size: 12px;
+}
+.ipt_size{
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.ipt_size1{
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.ipt_size2{
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.alert_pad{
+    padding:14px;
+}
+.form_control{
+    height:36px;
+}
+.brdr_success:focus{
+    border-color: #66cc99;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #b3e6cc;
+}
+.brdr_warn:focus{
+    border-color: #f0ad4e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #f8d9ac;
+}
+.brdr_danger:focus{
+    border-color: #ff6666;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffcccc;
+}
+.card-header {
+    padding: 14px 10px 10px 10px;
+}
+.dropdown_position1{
+    transform: translate3d(0px, 0, 0) !important;
+}
+.dropdown_position2{
+    right:0;
+    left:auto !important;
+    transform: inherit !important;
+}
+.kv-upload-progress>.progress, .fileinput-cancel-button{
+    display:none;
+}
+#kvFileinputModal > .model-dialog{
+    position: relative;
+}
+.file-zoom-fullscreen .modal-dialog{
+    position:relative;
+    margin:auto;
+}
+.file-zoom-fullscreen .modal-dialog{
+    min-width: 100% !important;
+}
+.file-zoom-dialog .kv-zoom-actions .btn, .floating-buttons .btn{
+    margin-top:3px;
+}
+.krajee-default .file-drag-handle, .krajee-default .file-upload-indicator{
+    bottom:-24px;
+}
+@media (min-width: 320px){
+    .txt_media1{
+        float: left !important;
+    }
+}
+#input-text-disabled{
+    cursor: not-allowed;
+}
+@media(min-width: 320px) and (max-width:425px){
+    .hidden-xs{
+        display: none;
+    }
+}
+.btn.btn-warning.btn-file:active,.btn.btn-info.btn-file:active{
+    color: #fff;
+}
+
+
+/*bootstrap3 ovverrides*/
+.file-input .input-group .btn-file,.file-input .input-group .btn-file{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+    padding:0.48rem 0.75rem;
+}

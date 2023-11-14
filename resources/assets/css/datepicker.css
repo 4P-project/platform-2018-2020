@@ -1,0 +1,48 @@
+.daterangepicker.opensleft:after {
+    display : none;
+}
+.date-picker-wrapper {
+    z-index : 99;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color : #fff;
+}
+.daterangepicker.opensright:after {
+    content : none;
+}
+.card-header {
+    padding: 9px 15px 7px 15px;
+}
+.date-picker-wrapper.no-shortcuts{
+    top: 353px;
+    left: 46px;
+    user-select: none;
+}
+.xdsoft_datetimepicker .xdsoft_datepicker{
+    width:260px;
+}
+
+.xdsoft_datetimepicker{
+    left:100px;
+    top:50px;
+}
+@media(min-width: 320px)and (max-width: 425px)
+{
+    .xdsoft_datetimepicker{
+        left:50px !important;
+    }
+}
+.daterangepicker.dropdown-menu,.dd-w,.td-wrap.td-n2.td-show,.clockpicker-popover{
+    z-index: 99;
+}
+.xdsoft_monthpicker,.xdsoft_datetimepicker .xdsoft_calendar{
+    background-color: #fff;
+}
+@media(max-width: 320px){
+    .datepicker.active{
+        left: 50px !important;
+    }
+    .date-picker-wrapper{
+        left: -21px !important;
+    }
+}

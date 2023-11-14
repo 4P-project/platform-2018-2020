@@ -1,0 +1,1 @@
+!function(i){i.fn.CountUpCircle=function(t){var e=this,n=i.extend({duration:5e3,opacity_anim:!1,step_divider:1},t),d=parseInt(this.html()),o=0,s=n.duration/(d/n.step_divider),r=1/(d/n.step_divider),p=function(){o+=n.step_divider,e.html(o),n.opacity_anim&&e.css({opacity:r*o}),o<d-n.step_divider?setTimeout(p,s):setTimeout(u,s)},u=function(){e.html(d)};p()}}(jQuery);

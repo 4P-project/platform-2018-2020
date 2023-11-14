@@ -1,0 +1,120 @@
+#example28 + .btn-group > .multiselect {
+    min-width : 65px;
+}
+.bootstrap-touchspin-up, .bootstrap-touchspin-down {
+    border-radius : 0 !important;
+}
+.clockface > div {
+    overflow : hidden;
+    text-align: center;
+}
+.bootstrap-switch-container{
+    width: 153px !important;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{
+    background-color: #6699cc;
+    color: #fff;
+}
+.multiselect-container>li>a>label {
+    height: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 3px 20px 3px 22px;
+}
+@media only screen and (min-width : 769px ) and (max-width : 1440px ) {
+    #example28-values {
+        margin-top : 10px;
+    }
+}
+@media (max-width : 320px ) {
+    .bootstrap-datetimepicker-widget.dropdown-menu {
+        width : 100%;
+        left  : 30px !important;
+    }
+}
+.picker-switch span{
+    color:#6699cc;
+}
+.multi_block{
+    display: block;
+}
+.dropdown_position .dropdown-menu{
+    transform:translate3d(0px, 3px, 0px) !important;
+
+}
+.bootstrap-touchspin .input-group-btn-vertical{
+    margin-right: 15px;
+}
+.clockpicker-popover{
+    z-index: 99;
+}
+@media(max-width:320px){
+    #demo4_2{
+        padding: 0;
+    }
+}
+
+.dropdown_position .form-group label{
+    padding-left: 15px;
+}
+#example35-enable{
+ margin-left: 15px;
+}
+@media(max-width: 1024px){
+    #example35-disable{
+        margin-left: 20px;
+    }
+    .respopnse-switch{
+        margin-left: -30px;
+    }
+}
+@media(min-width:320px) and (max-width:425px){
+    #example35-disable{
+        margin-left: 15px;
+    }
+}
+.colorpicker.colorpicker-with-alpha{
+    z-index: 99;
+}
+
+/*bootstrap3 overrides*/
+.vertical .input-group-btn-vertical .bootstrap-touchspin-up,.vertical .input-group-btn-vertical .bootstrap-touchspin-down{
+    padding: 9px 10px;
+}
+
+.bootstrap-touchspin-postfix{
+    border-radius: 0;
+}
+
+.large .bootstrap-touchspin-up,.large .bootstrap-touchspin-down{
+    padding: 0.55rem 0.75rem;
+}
+.addon-option .btn-group{
+    width:1%;
+}
+.addon-option .btn-group .btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+@media(max-width:1024px){
+    .card-body.dropdown_position{
+        padding-left: 0;
+    }
+}
+
+#offText, #onText{
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+@media(min-width: 320px) and (max-width: 1024px){
+    .respopnse-switch{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media(max-width:320px){
+    .btswitch{
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "wenk",
+  "homepage": "https://github.com/mightyCrow/wenk",
+  "version": "1.0.7",
+  "_release": "1.0.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.7",
+    "commit": "21be1a1405b16b36f21205a199521de35c29cafc"
+  },
+  "_source": "https://github.com/mightyCrow/wenk.git",
+  "_target": "~1.0.4",
+  "_originalSource": "wenk"
+}

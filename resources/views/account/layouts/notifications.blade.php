@@ -1,0 +1,33 @@
+<script>
+    jQuery(function() {
+        PNotify.prototype.options.styling = "bootstrap3";
+        PNotify.prototype.options.styling = "jqueryui";
+        PNotify.prototype.options.styling = "fontawesome";
+
+        @if(session()->has('message'))
+        new PNotify({
+            title: 'SUCCESS',
+            type: 'success',
+            text: '{{ session()->get('message') }}',
+            hide: true,
+            delay: 8000,
+            after_init: function(notice) {
+                notice.attention('tada');
+            }
+        });
+        @endif
+
+        @if(session()->has('error'))
+        new PNotify({
+            title: 'ERROR',
+            type: 'error',
+            text: '{{ session()->get('error') }}',
+            hide: true,
+            delay: 8000,
+            after_init: function(notice) {
+                notice.attention('tada');
+            }
+        });
+        @endif
+    });
+</script>

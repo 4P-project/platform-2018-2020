@@ -1,0 +1,47 @@
+#table1 th,
+#table1 td {
+    white-space : nowrap;
+}
+#table5_filter {
+    display : none;
+}
+.horizontal_table {
+    width : 100% !important;
+}
+.dataTables_scrollHeadInner {
+    width: 100% !important;
+    min-width: 1109px !important;
+}
+#table1_wrapper .row,#table2_wrapper .row,#table3_wrapper .row,#table4_wrapper .row,#table5_wrapper .col-xs-12,#table5_wrapper .row{
+    width:100% !important;
+}
+#table1_wrapper .dataTables_length,#table2_wrapper .dataTables_length,
+#table4_wrapper .dataTables_length,#table3_wrapper .dataTables_length{
+    float:left;
+}
+#table1_filter,#table2_filter,#table3_filter,#table4_filter{
+    margin-top:13px;
+    float:right;
+}
+.pagination {
+    float: right;
+}
+@media(max-width:320px){
+    div.dataTables_wrapper div.dataTables_filter input{
+        display:block;
+    }
+}
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child{
+    width:100%;
+}
+.right_search .dataTables_filter label{
+    float:right;
+}
+.dataTables_filter,.pagination{
+    margin-right: 10px !important;
+}
+@media(min-width: 320px) and (max-width:375px){
+    .pagination{
+        float:left;
+    }
+}

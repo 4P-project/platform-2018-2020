@@ -1,0 +1,208 @@
+.input-group-sm > .input-group-addon {
+    padding : 3px 10px;
+}
+.input-group-lg > .input-group-addon {
+    padding : 9px 16px;
+}
+.has-success .input-group-addon,
+.has-error .input-group-addon {
+    color : #fff;
+}
+.card_brdr{
+    padding-bottom: 15px;
+}
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group {
+    z-index : 0 !important;
+}
+.form-bordered .form-group > div {
+    padding     : 1em;
+    border-left : 1px solid #efefef;
+}
+.form-bordered .form-group {
+    margin        : 0;
+    border-bottom : 1px solid #efefef;
+}
+
+.form-bordered .control-label {
+    padding-top   : 17px;
+    margin-bottom : 0;
+    text-align    : right;
+}
+.form-bordered-row .form-group {
+    margin        : 0;
+    border-bottom : 1px solid #efefef;
+}
+.form-bordered-row .control-label {
+    padding-top   : 17px;
+    margin-bottom : 0;
+    text-align    : right;
+}
+.form-bordered-row .form-group > div {
+    padding : 15px;
+}
+.right_aligned button {
+    margin-left : 7px;
+}
+.has-success .input-group-addon,
+.has-error .input-group-addon {
+    color : #555;
+}
+.proc {
+    position : relative;
+    top      : -25px;
+    left     : 95%;
+}
+.dropdown_position1{
+    transform: translate3d(0px, 0, 0) !important;
+}
+.dropdown_position{
+    transform: translate3d(-62px,1px,0) !important;
+}
+.dropdown_position3{
+    right:0;
+    transform: inherit !important;
+    left:auto !important;
+}
+.brdr_success:focus {
+    border-color: #66cc99;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #b3e6cc;
+}
+.brdr_warn:focus{
+    border-color: #f0ad4e;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #f8d9ac;
+}
+.brdr_danger:focus{
+    border-color: #ff6666;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ffcccc;
+}
+.form_control:focus{
+    outline: none;
+}
+.fnt_position{
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    pointer-events: none;
+}
+.pad_dropdown{
+    padding: 0;
+}
+
+.fa-close{
+    color:#ff6666;
+}
+.fa-check{
+    color: #66cc99;
+}
+.fa-warning{
+    color: #f0ad4e;
+}
+.brdr_clr{
+    background-color: #66cc99;
+}
+.brdr_clr1{
+    background-color: #ff6666;
+}
+@media only screen and (max-width : 768px) {
+    .form-bordered .form-group > div {
+        border : none;
+    }
+}
+@media only screen and (max-width : 425px) {
+    .proc {
+        position : relative;
+        top      : -25px;
+        left     : 91%;
+    }
+}
+#tab3 .form-horizontal .radio, #tab3 .form-horizontal .checkbox,
+#tab3 .form-horizontal .radio-inline,#tab3 .form-horizontal .checkbox-inline {
+    padding-top: 0;
+    margin-bottom: 4px;
+}
+.m-l-10 {
+    margin-left :10px;
+}
+.card-header.tab-list {
+    padding: 2px 0 0 10px;
+}
+.tab-list .nav-tabs {
+    border-bottom: 0;
+}
+@media (min-width: 768px){
+    .form-inline .form-group {
+        margin-bottom: 13px;
+    }
+}
+@media (min-width: 320px) and (max-width:375px){
+    .txt_media{
+        text-align: left !important;
+        display: inline;
+    }
+    #tab2  .txt_font{
+        margin-top: 1px !important;
+    }
+
+}
+@media (max-width: 320px){
+    .butn{
+        margin-top:6px;
+    }
+    .txt_font{
+        margin-top: 1px !important;
+    }
+}
+@media (max-width: 320px){
+    .buttn{
+       margin-top: 10px;
+    }
+}
+.border{
+    padding-left:0;
+    padding-right: 0;
+}
+#example-disabled,#example-disabled1,#example-disabled2,#example-disabled3, .card-body input[disabled="disabled"],#inputEmail3,#inputPassword4{
+    cursor: not-allowed;
+}
+.card-body.border{
+    padding-bottom: 0;
+}
+.btn{
+    margin-top: 0.5rem;
+}
+
+.pad_dropdown .form-control,.d-inline .form-control{
+    margin-top:9px;
+}
+@media(max-width: 1024px){
+    .form-inline .ml-lg-1{
+        margin-left: 0 !important;
+    }
+}
+@media(min-width:320px) and (max-width:425px){
+    .dropdown_position3{
+        transform: translate3d(33px,1px,0) !important
+    }
+    .topbottom .card-header .float-right{
+        margin-top: 1px;
+    }
+}
+@media(min-width: 320px) and (max-width: 375px){
+    .horizontal .card-header .float-right,.bottomaction .card-header .float-right{
+        margin-top: 1px;
+    }
+}
+@media(max-width: 1024px){
+    .supported .card-header .float-right{
+        margin-top: 1px;
+    }
+    .form-inline .form-group{
+        margin-right: 5px;
+    }
+}

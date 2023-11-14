@@ -1,0 +1,49 @@
+.horizontal_layout .right-side{
+    margin-left: 0;
+    padding: 1px 15px 10px 15px;
+}
+.horizontal_layout .right-side > .content-header{
+    margin:-6px -15px 25px -15px;
+}
+@media(max-width: 375px){
+    .horizontal_layout .right-side > .content-header{
+        margin:-6px -15px 45px -15px !important;
+    }
+}
+@media(max-width:768px){
+    .horizontal_layout .horizontal_menu{
+        width: 100%;
+        padding-left: 0;
+        margin-left:0;
+        margin-right:0;
+    }
+}
+@media(max-width:576px){
+    .horizontal_layout .horizontal_menu {
+        margin-top: 102px;
+    }
+}
+
+/*dashboard2*/
+@media(max-width:768px){
+    .horizontal_layout .new-task{
+        margin-left: -8px;
+    }
+}
+
+/*notification*/
+.horizontal_layout .notify_page .top_margin{
+    margin-top: 4px !important;
+}
+@media(max-width:768px){
+    .horizontal_layout .notify_page .top_margin{
+        margin-top: 19px !important;
+    }
+}
+
+/*amcharts*/
+@media(max-width:1024px){
+    .horizontal_layout .column .card-header .float-right{
+        margin-top: initial;
+    }
+}

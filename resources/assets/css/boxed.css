@@ -1,0 +1,291 @@
+/*columns*/
+.boxed_column_flex{
+    flex:0 0 100% !important;
+    max-width: 100% !important;
+}
+
+@media(min-width: 769px) and (max-width:1024px){
+    .boxed_column_flex_1024{
+        flex:0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+@media(min-width: 426px) and (max-width:768px){
+    .boxed_column_flex_768{
+        flex:0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+@media(min-width: 768px) and (max-width: 1024px){
+    .box_flex-sm{
+        flex:0 0 25% !important;
+        max-width: 100% !important;
+    }
+    .boxbtn{
+        padding-left: 2px;
+    }
+}
+/*message dropdown*/
+@media(max-width:425px){
+    .boxed .navbar-nav > .messages-menu > .dropdown-menu{
+        right: -217px;
+    }
+}
+
+/*card header*/
+
+@media(max-width:1024px){
+    .card_header1024{
+        width:84%;
+    }
+}
+@media(max-width:425px){
+    .boxed .xs-header{
+        width:90%;
+    }
+}
+/*dashboard 1*/
+.boxed .news-head hr{
+    width:52%;
+}
+.boxed .news-cont .read-more{
+    margin-top:-8px;
+}
+
+@media(min-width: 768px) and (max-width:1024px){
+    .boxed .header-object .option-search{
+        width:75%;
+    }
+}
+/*form elements*/
+.boxed .form-element .dropdown_position2{
+    transform: translate3d(76px, 0px, 0px) !important;
+}
+@media(min-width: 425px) and (max-width:768px){
+    .boxed .form-element .dropdown_position2{
+        transform: translate3d(206px, 0px, 0px) !important;
+    }
+}
+
+/*real time forms*/
+.trip-type-multi{
+    margin-left: -20px;
+}
+@media(min-width: 768px) and (max-width:1024px){
+    .btn-effect-ripple{
+        margin-bottom: 5px;
+    }
+    .boxed #nonsingle-stop .remove-flight{
+        bottom:13px !important;
+    }
+}
+
+/*form validations*/
+@media(max-width: 320px){
+    .basic-validation .card-header .float-right{
+        margin-top: 1px ;
+    }
+}
+
+/*form layout*/
+@media(min-width: 768px) and (max-width:1024px){
+    label[for="inputUsername1"],
+    label[for="inputpass"],
+    label[for="inputUsername2"],
+    label[for="keypassword"],
+    label[for="inputWarning1"],
+    label[for="inputWarning2"],
+    label[for="input_Password"],
+    label[for="confirm_Password"],
+    label[for="inputPassword"],
+    label[for="example-password"],
+    label[for="example-disabled"],
+    label[for="example-textarea-input"],
+    label[for="example-file-multiple-input"],
+    .mlboxed{
+        margin-left: -16px;
+    }
+    .boxed #example-file-multiple-input{
+        margin-left: -4px;
+    }
+}
+.twitterstate .card-header .txt_font{
+    margin-top: 1px;
+}
+@media(min-width: 375px) and (max-width: 768px){
+    .boxed .but_drop .dropdown_position{
+        transform: translate3d(70px,1px,0) !important;
+    }
+}
+/*complex forms*/
+@media(min-width: 320px) and (max-width: 375px){
+    #complex-form,#complex-form2{
+        margin-top: 30px;
+    }
+}
+
+.boxed .fileinput-preview.thumbnail,.boxed .fileinput-preview.thumbnail img{
+    width:100% !important;
+}
+/*dropdowns*/
+
+/*bootstrap3 overrides*/
+.boxed .select2-bootstrap-append .select2-container,.boxed .select2-bootstrap-prepend .select2-container{
+    width: 89% !important;
+}
+
+@media(min-width: 768px) and (max-width:1024px){
+    .boxed .select2-bootstrap-append .select2-container,.boxed .select2-bootstrap-prepend .select2-container{
+        width: 83% !important;
+    }
+}
+@media(min-width: 320px) and (max-width:425px){
+    .boxed .select2-bootstrap-append .select2-container,.boxed .select2-bootstrap-prepend .select2-container{
+        width: 81% !important;
+    }
+}
+
+/*radio check*/
+@media(max-width: 1024px){
+    .boxed .radio,.boxed .checkbox{
+        display: flex;
+    }
+    .boxed .checkbox{
+        padding-left:11px;
+    }
+    .boxed .radio.radio-inline,.boxed .checkbox.checkbox-circle{
+        margin-left: 10px;
+    }
+    .boxed .checkbox label{
+        padding-left: 0;
+    }
+}
+.boxed .radio.radio-inline{
+    margin-left: 4px;
+}
+
+/*gneral components*/
+@media(max-width:320px){
+    .boxed .horizontal .card-header .float-right{
+        margin-top: 1px;
+    }
+}
+
+/*buttons*/
+.boxed .hvr-buzz{
+    margin-bottom: 0 !important;
+}
+@media(min-width:768px) and (max-width:1024px){
+    .boxed .boxed_card{
+
+        padding:15px 0 15px 0;
+    }
+}
+
+/*pickers*/
+
+.boxed #sparkline2 canvas{
+    width:100% !important;
+}
+
+/*widget1*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .boxed .waves-effect{
+        margin-right: -10px;
+    }
+    .boxed .card-widget .swiper-slide{
+        width: 100%;
+    }
+}
+
+/*widget*/
+@media(min-width: 768px) and (max-width: 1024px){
+    .widget-chart .knob{
+        margin-left: -34px !important;
+        margin-top: -93px !important;
+    }
+}
+
+/*widget2*/
+@media(max-width:1024px) {
+    #widget_count1,#widget_count2,#widget_count3,#widget_count4{
+        margin-right: -11px;
+    }
+    #ziu .ti-comment, #zo .ti-user, #flp .ti-heart{
+        font-size: 3rem;
+    }
+}
+
+/*circle slider*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .boxed .circle_slider  .knob{
+        margin-top: -86px !important;
+        margin-left:-31px !important;
+    }
+}
+
+@media(max-width:1024px){
+    .boxed .collapse-left + .right-side .circle_slider  .knob{
+        margin-top: 40px !important;
+        margin-left:-92px !important;
+    }
+}
+/*nvd3charts*/
+@media(max-width:1024px){
+   .boxed #chart3 .nv-legendWrap{
+        transform: translate3d(122px,-54px,0px);
+    }
+}
+@media(max-width:768px){
+    .boxed #chart3 .nv-legendWrap{
+        transform: translate3d(122px,-30px,0px);
+    }
+}
+
+/*gmaps*/
+@media(min-width: 1440px){
+    .boxed #gmap-types .gm-style-cc + button{
+        z-index: 99;
+    }
+    .boxed #gmap-types .gmnoprint{
+        z-index: 9;
+    }
+}
+
+/*notifications*/
+
+.boxed .top_margin{
+    margin-top: 18px !important;
+}
+@media(min-width: 1025px) and (max-width:1440px){
+    .boxed .collapse-left + .right-side .top_margin{
+        margin-top: 5px !important;
+    }
+}
+
+/*userlist*/
+
+@media(min-width:320px) and (max-width:425px){
+    .boxed #table_paginate{
+        margin-right: -162px;
+    }
+}
+
+/*boxed and movable header*/
+.boxed.movable-header .right-side{
+    padding: 1px 15px 10px 15px;
+}
+.boxed.movable-header .right-side > .content-header{
+    margin: -2px -15px 25px -15px !important;
+}
+@media(min-width: 320px) and (max-width:375px){
+    .boxed.movable-header .right-side > .content-header{
+        margin: -2px -15px 45px -15px !important
+    }
+}
+@media(min-width: 320px) and (max-width:768px){
+    .boxed.movable-header .wrapper.relative .content-header{
+        margin: -2px -10px 25px -20px;
+    }
+}

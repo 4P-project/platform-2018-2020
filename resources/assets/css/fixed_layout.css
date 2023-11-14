@@ -1,0 +1,38 @@
+@media(max-width: 425px){
+    .fixed-menu .right-side .content-header{
+        margin:0 -15px 25px -10px !important;
+    }
+    .fixed-menu .relative .right-side .content-header{
+        margin: -2px -15px 25px -20px;
+    }
+}
+@media(min-width:320px) and (max-width:375px){
+    .fixed-menu .right-side .content-header{
+        margin: 0 -15px 45px -10px !important;
+    }
+}
+@media(min-width: 320px) and (max-width:425px){
+    .right-side{
+        padding: 103px 10px 10px 10px;
+    }
+}
+
+.fixed-menu .notification .source{
+    margin-top: 5px !important;
+}
+@media(max-width:1024px){
+    .fixed-menu .collapse-left + .right-side.strech .notification .source{
+        margin-top: 4px !important;
+    }
+    .fixed-menu .notification .source{
+        margin-top: 19px !important;
+    }
+}
+@media(max-width:425px){
+    .fixed-menu .left-side{
+        top:104px;
+    }
+    .fixed-menu .messages-menu.show .dropdown-messages.show{
+        right:-217px;
+    }
+}

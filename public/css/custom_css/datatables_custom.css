@@ -1,0 +1,48 @@
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-left-radius : 5px;
+    border-top-left-radius    : 5px;
+}
+.btn-group > .btn:last-child:not(:first-child),
+.btn-group > .dropdown-toggle:not(:first-child) {
+    border-bottom-right-radius : 5px;
+    border-top-right-radius    : 5px;
+}
+#sample_1_wrapper .col-xs-12, #sample_1_wrapper .row,#example_wrapper .row, #example_wrapper .col-xs-12 {
+    width:100% !important;
+}
+.pagination{
+    float:right;
+}
+#sample_1_wrapper .dataTables_length, #example_wrapper .dataTables_length{
+    float:  left !important;
+}
+#sample_1_filter, #example_filter{
+    margin-top:13px;
+    margin-right: 10px;
+    float:right;
+}
+#example_wrapper .table-bordered{
+    width:100% !important;
+}
+.table-responsive .btn-group{
+    margin:10px 15px 10px 0 !important;
+}
+
+@media (max-width: 320px) {
+    #sample_1_filter,#example_filter{
+        margin-right:-37px;
+    }
+    #sample_1_paginate,#example_paginate{
+        margin-right:-45px;
+    }
+
+}
+@media(min-width: 320px) and (max-width: 375px){
+    .pagination{
+        float: none;
+    }
+}
+
+#sample_1_paginate{
+    margin-right: 10px;
+}
